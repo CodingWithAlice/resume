@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('iconfont.eot');
+    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/iconfont.woff2') format('woff2'),
+        url('../fonts/iconfont.woff') format('woff'),
+        url('../fonts/iconfont.ttf') format('truetype'),
+        url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+h2 {
+    margin-bottom: -.3rem;
+}
+.iconfont {
+    font-family: iconfont;
+}
+.banxin {
+    width: 80%;
+    min-width: 30rem;
+    margin: 0 auto;
+
+}
+
+header h1 {
+    text-align: center;
+}
+
+.basic img {
+    width: 10rem;
+    height: 13.33rem;
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+}
+
+.basic h1 {
+    font-size: 2.5rem;
+}
+
+.basic p {
+    font-size: 1.5rem;
+}
+tr,
+td,
+p {
+    font-family:  "Times New Roman" "\5FAE\8F6F\96C5\9ED1";
+}
+table tr td{
+    padding: .2rem;
+}
+.school td:first-child{
+    width: 25%;
+}
+.school td:nth-child(2){
+    width: 58%;
+}
+.skill td:first-child{
+    width: 25%;
+}
+.exper tr:nth-child(2n+1){
+    width: 50%;
+}
+.exper tr:nth-child(2n) {
+    text-indent: 2em;
+}
+.award  td:first-child{
+    width: 25%;
+}
+.award td[colspan] {
+    text-indent: 2em;
+    font-family: "楷体";
+    font-size: 1.2em;
+}
+a{
+    text-decoration: none;
+}
